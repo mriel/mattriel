@@ -9,6 +9,7 @@ image: '/assets/cps.png'
 alttext: Chicago Public Schools website homepage
 layout: 'experience.njk'
 tags: exp
+date: 2010-09-01
 ---
 
 At Chicago Public Schools I was a Front-End Developer and Web Designer. I helped the web service team maintain and update the 

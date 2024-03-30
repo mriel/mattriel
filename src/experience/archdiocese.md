@@ -9,6 +9,7 @@ image: '/assets/arch.png'
 alttext: Archdiocese of Chicago website homepage
 layout: 'experience.njk'
 tags: exp
+date: 2018-04-01
 ---
 
 At the Archdiocese of Chicago I was the main Front-End Developer also in charge of a lot of design decisions related

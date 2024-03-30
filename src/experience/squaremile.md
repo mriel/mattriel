@@ -9,6 +9,7 @@ image: '/assets/sqmpeanutbutter.png'
 alttext: Espresso beans in a jar
 layout: 'experience.njk'
 tags: exp
+date: 2023-01-01
 ---
 
 I was responsible for managing the consumer website, wholesale website, and

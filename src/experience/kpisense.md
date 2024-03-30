@@ -9,6 +9,7 @@ image: '/assets/kpisense.png'
 alttext: KPI Sense website homepage
 layout: 'experience.njk'
 tags: exp
+date: 2021-08-01
 ---
 
 At KPI Sense I was the Front-End Engineer and sole Designer for the company. I was responsible for all UX/UI. 
