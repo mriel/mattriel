@@ -1,0 +1,11 @@
+---
+layout: 'base.njk'
+---
+<section class="intro">
+    <a href="/news/" class="backlink"><i class="fa-solid fa-chevron-left"></i> News</a>
+</section>
+<section class="intro">
+    <h1>{{ title }}</h1>
+    <p>{{ date | postDate }}</p>
+    {{ content | safe }}
+</section>

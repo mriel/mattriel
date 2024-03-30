@@ -1,0 +1,22 @@
+---
+layout: 'base.njk'
+---
+<section class="intro">
+    <a href="/" class="backlink"><i class="fa-solid fa-chevron-left"></i> Home</a>
+</section>
+<section class="connect section-spacing">
+    <h2>{{ title }}</h2>
+    <div class="exp-p">
+        <p class="exp-job-title">{{ job }}</p>
+        <img src="{{ image }}" alt="{{ alttext }}">
+        <p class="job-title">{{ length }}</p>
+        <p class="exp-p">{{ content | safe }}</p>
+        <a href="{{ link }}" target="_blank"> {{ title }} <i class="fa-solid fa-up-right-from-square"></i></a>
+        <p>Skills used:</p>
+        <ul class="exp-skills-list">
+            {% for skill in skills %}
+            <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

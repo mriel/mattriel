@@ -1,0 +1,57 @@
+---
+title: Matt Riel
+layout: 'base.njk'
+---
+<section class="intro">
+  <h1>Matt Riel <span class="job-title">Front-End Designer</span></h1>
+  <p>Hello. I'm Matt, a Front End Designer. I love to design and create products with simple, long lasting designs
+    that are accessible for everyone. </p>
+  <p>I have previously worked for both non-profit institutions and start ups, providing expertise in design,
+    usability, accessibility, and technology. </p>
+  <p>My belief is that having a clear message to drive straightforward transparent content leads to a simple
+    timeless design where the product shines. </p>
+</section>
+<section class="exp section-spacing">
+  {%- for exp in collections.exp -%}
+  <div class="exp-flex">
+    <h2>{{ exp.data.year }}</h2>
+    <p>{{ exp.data.job }} <br><a href="{{ exp.url }}"> {{ exp.data.title }}</a></p>
+  </div>
+  {% endfor %}
+</section>
+<section class="news section-spacing">
+  <h2>News</h2>
+  <div>
+    {%- for post in collections.post | reverse -%}
+    <article class="news-article">
+      <a href="{{ post.url }}">{{ post.data.title }}
+        <span class="d-block">{{ post.date | postDate }}</span>
+      </a>
+    </article>
+    {% endfor %}
+    <a href="/news/">View More</a>
+  </div>
+</section>
+<section class="now section-spacing">
+  <h2>Now</h2>
+  <div class="now-cards">
+    {%- for now in collections.now -%}
+    <article>
+      <p>{{ now.data.type | capitalize }}</p>
+      <img class="now-img" src="{{ now.data.image }}" alt="{{ now.data.alttext }}">
+      <a class="d-block" href="{{ now.data.link }}" target="_blank">{{ now.data.title }}</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+<section class="connect section-spacing">
+  <h2>Connect</h2>
+  <div class="connect-links">
+    <a href="https://mastodon.social/@madyss" target="_blank"><i class="fa-brands fa-mastodon"></i>
+      madyss@mastodon.social</a>
+    <a href="mailto:hello@mattriel.com" target="_blank"><i class="fa-regular fa-paper-plane"></i> hello@mattriel.com</a>
+    <a href="https://www.linkedin.com/in/mattriel" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    <a href="https://github.com/mriel/mattriel" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+    <a href="/whatiuse/"><i class="fa-solid fa-toolbox"></i> What I Use</a>
+  </div>
+</section>

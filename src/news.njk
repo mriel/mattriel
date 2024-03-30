@@ -1,0 +1,15 @@
+---
+title: News
+layout: 'base.njk'
+---
+<section class="intro">
+    <a href="/" class="backlink"><i class="fa-solid fa-chevron-left"></i> Home</a>
+</section>
+<section class="exp section-spacing">
+    {%- for post in collections.post | reverse -%}
+    <div class="exp-flex">
+        <h2>{{ post.date | postDate }}</h2>
+        <p><a href="{{ post.url }}">{{ post.data.title }}</a></p>
+    </div>
+    {% endfor %}
+</section>

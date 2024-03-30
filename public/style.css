@@ -1,0 +1,186 @@
+:root {
+    --dark-bg: #000;
+    --dark-font-default: #f3f3f3;
+    --dark-font-secondary: #bebebe;
+    --light-bg: #f3f3f3;
+    --light-font-default: #1e1e1e;
+}
+
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--dark-font-default);
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 717px;
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    padding-top: 50px;
+}
+
+footer {
+    border-top: 1px solid var(--light-font-default);
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    margin-top: 16px;
+}
+
+a {
+    color: var(--dark-font-default);
+}
+
+.backlink {
+    text-decoration: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.section-spacing {
+    margin-top: 50px;
+}
+
+.intro {
+    margin-top: 70px;
+    max-width: 717px;
+    line-height: 1.5em;
+}
+
+.job-title {
+    font-size: 16px;
+    color: var(--dark-font-secondary);
+}
+
+.exp-flex,
+.news {
+    display: flex;
+    gap: 100px;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.exp-link {
+    display: inline-block;
+}
+
+.exp-job-title {
+    margin-top: 0px;
+}
+
+.exp-skills-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.exp-p {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.connect {
+    display: flex;
+    gap: 68px;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.news-article {
+    padding: 16px 0px;
+    line-height: 1.5em;
+}
+
+.now {
+    display: flex;
+    gap: 108px;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.now-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.now-img {
+    border-radius: 15px;
+    width: 150px;
+}
+
+.connect h2 {
+    margin-top: 0px;
+}
+
+.connect-links a {
+    display: block;
+    line-height: 2em;
+}
+
+.quote {
+    color: var(--dark-font-secondary);
+    padding-right: 10px;
+}
+
+@media (prefers-color-scheme: light) {
+
+    /* Light theme styles go here */
+    body {
+        background-color: var(--light-bg);
+        color: var(--light-font-default);
+    }
+
+    footer {
+        border-top: 1px solid var(--dark-font-secondary);
+    }
+
+    a {
+        color: var(--light-font-default);
+    }
+
+    .job-title {
+        color: var(--light-font-default);
+    }
+
+    .quote {
+        color: var(--light-font-default);
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .now-cards {
+        flex-wrap: wrap;
+    }
+
+    .now {
+        gap: 28px;
+    }
+
+    .exp-flex,
+    .news {
+        gap: 20px;
+    }
+
+    .exp-link {
+        display: inline-block;
+    }
+
+    .connect {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
