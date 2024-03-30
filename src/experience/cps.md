@@ -15,4 +15,4 @@ At Chicago Public Schools I was a Front-End Developer and Web Designer. I helped
 public website as well as various applications used by Principals, Teachers, and Parents everyday. We made applications so that
 parents can easily see school districts and find information about schools. One of the biggest achievments we made was to overhaul
 our public website with a whole new design as well as make it mobile friendly. This made it accessible to more parents in the city
-as most people had smartphones and not always have access to a computer.  
+as most people had smartphones and not always have access to a computer.

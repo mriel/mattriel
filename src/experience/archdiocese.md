@@ -16,4 +16,4 @@ to internal applications. I worked with internal managers and back-end developer
 for local churches. One of the most major project that I was part of was creating an intranet for the entire
 organization. I was in charge of design, building, and testing. We used use of our current software and built in 
 Sharepoint. I met with various stakeholders and subject matter experts to create a place for all employees to get the
-relevant information they need fast as well as a place that organizational messages can be shared for everyone. 
+relevant information they need fast as well as a place that organizational messages can be shared for everyone.
