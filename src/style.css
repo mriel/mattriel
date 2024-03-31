@@ -134,7 +134,11 @@ a {
 
 .connect-links a {
     display: block;
-    line-height: 2em;
+    padding-bottom: 15px;
+}
+
+.footer-links {
+    padding-left: 20px;
 }
 
 .quote {
