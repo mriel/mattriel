@@ -50,6 +50,10 @@ a {
     vertical-align: -0.125em;
 }
 
+.icon-fill {
+    fill: var(--dark-font-default);
+}
+
 .backlink {
     text-decoration: none;
 }
@@ -168,6 +172,10 @@ a {
 
     .quote {
         color: var(--light-font-default);
+    }
+
+    .icon-fill {
+        fill: var(--light-font-default);
     }
 }
 
