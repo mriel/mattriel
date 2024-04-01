@@ -2,6 +2,8 @@
 
 # Matt Riel
 
+[mattriel.com](https://mattriel.com)
+
 This is my personal website. Where you can learn a little about me and maybe read some thing that Im currently interested in.
 I've built this site using [11ty.dev](https://11ty.dev), deployed through netlify, and hosted on github. 
 
