@@ -1,8 +1,8 @@
 ---
-title: Not Now Im Busy 
-image: '/assets/notnowimbusy-joynerlucas.png'
-alttext: Not Now Im Busy Joyner Lucas Album Cover
-link: 'https://genius.com/albums/Joyner-lucas/Not-now-im-busy'
+title: 13 Months of Sunshine 
+image: '/assets/amine.png'
+alttext: 13 months of sunshine Amine Album Cover
+link: 'https://genius.com/albums/Amine/13-months-of-sunshine'
 type: listening
 tags: now
 ---

@@ -7,8 +7,9 @@
   <title>Chicago Public Schools</title>
   <meta name="description"
     content="Hi! I'm Matt Riel and this is my personal website. Get to know a little about me and some of the things I like enough to put in my blog.">
-  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" href="./assets/favicon-16x16.png">
+  <link rel="icon" type="image/png" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" href="./assets/favicon-64x64.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap" />
@@ -42,15 +43,28 @@
         <p class="exp-job-title">Front-End Developer, Web Designer</p>
         <img src="/assets/cps.png" alt="Chicago Public Schools website homepage">
         <p class="job-title">September 2010 thru March 2018</p>
-        <p class="exp-p"><p>At Chicago Public Schools I was a Front-End Developer and Web Designer. I helped the web service team maintain and update the
-public website as well as various applications used by Principals, Teachers, and Parents everyday. We made applications so that
-parents can easily see school districts and find information about schools. One of the biggest achievments we made was to overhaul
-our public website with a whole new design as well as make it mobile friendly. This made it accessible to more parents in the city
-as most people had smartphones and not always have access to a computer.</p>
+        <p class="exp-p"><p>At Chicago Public Schools I was a Front-End Developer and Web Designer. I helped the web service team maintain and update the public website as well as various applications used by Principals, Teachers, and Parents everyday. We made applications so that parents can easily see school districts and find information about schools. Some of the major projects I was a part of was the redesign of CPS and Annual budget website.</p>
+<h2>CPS Redesign</h2>
+<p><img src="/assets/cps_before_after.png" alt="Website front page of Chicago Public Schools" title="Front of CPS webpage before and after redesign">
+Left is before website redesign. Right is the redesign</p>
+<h3></h3>
+<h3>Problem</h3>
+<p>Users primary source to get information about CPS was from their local schools, when all the information was readily available on the website. It was difficult to navigate and hard to find information that parents and teachers wanted to know. Parents and teachers just weren't coming to our website for information or using the resources that were available to them.</p>
+<h3>Research</h3>
+<p>We first started to research possible solutions. We first went to Google Analytics to see where our users were coming from, what devices the were using, and what were some of the pages that were most popular. We cross referenced with some of the big events of the year, like start of school and open enrollment. The data from google would tell us a lot but we also wanted to get a first account of what parents and teachers wanted. So we took a survey targeted to the parents and teachers in the district.</p>
+<p>Our research and analysis told us some very enlightening things such as:</p>
+<ul>
+<li>most users were viewing the website from a mobile device even though the site was not mobile friendly</li>
+<li>parents day to day would get information from their particular schools but specific seasonal events they wold go to CPS to see, such as open enrollment, lunch menus, start of school, and any special initiatives like GoCPS</li>
+<li>users had a hard time finding what they wanted and would default to a small search bar on the top</li>
+</ul>
+<h3>Solution</h3>
+<p>We wanted to reach as many people as we could. The major decision we made was to be mobile first. At the time we were using SharePoint CMS and evaluated if we wanted to move away from SharePoint but a complete overhaul of not only a new front end design but also a backend replacement would’ve taken a lot more effort and time. After looking at all our options we decided to overhaul our CSS and add in Bootstrap to accomplish what we wanted while still remaining on SharePoint. The downside to this was that we had to manually format each page, starting with our most popular pages first.</p>
+<p>The decision to go mobile also allowed us to totally reevaluate the design and navigation, so we could make it a lot easier for parents, students, and teachers to find the information they need. This ultimately involved two key components, navigation and search. We realized from analytics that a lot users used our search function to find things. So, we took a google approach and made it front and center. It would be easy just to do that but if we wanted to truely help the users we also needed to make it better by adding fuzzy search and most used keywords. The other part was removing the old resource section in the middle and using a more dynamic three section in the middle that would change depending on any events or special initatives currently going on.</p>
+<p>These two features paired with a cleaner more streamlined design to make sure that our content was easy to read and easy to find for our users. Always having the users in mind in all the decisions we made. So coming up with a simple clean design that made the content stand out was the best decision for us at the time. This also aligned very well with my design philosophy of content and message first then come up with a design that drives it.</p>
 </p>
         <a href="https://cps.edu" target="_blank"> Chicago Public Schools
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon"
-                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 512 512">
                 <path class="icon-fill"
                     d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
             </svg>
@@ -80,7 +94,7 @@ as most people had smartphones and not always have access to a computer.</p>
         <a class="footer-links" href="/news/">News</a>
     </div>
     <div>
-        <p><span class="quote">You can’t have no in your heart. 2024 </span> <a href="/colophon/">Colophon</a></p>
+        <p><span class="quote">You can’t have no in your heart. 2025 </span> <a href="/colophon/">Colophon</a></p>
     </div>
 </footer>
 </body>

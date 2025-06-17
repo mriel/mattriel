@@ -10,6 +10,23 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
+  	// Get the first `n` elements of a collection.
+	eleventyConfig.addFilter("head", (array, n) => {
+		if(!Array.isArray(array) || array.length === 0) {
+			return [];
+		}
+		if( n < 0 ) {
+			return array.slice(n);
+		}
+
+		return array.slice(0, n);
+	});
+
+	// Return the smallest number argument
+	eleventyConfig.addFilter("min", (...numbers) => {
+		return Math.min.apply(null, numbers);
+	});
+
   return {
     dir: {
       input: "src",
