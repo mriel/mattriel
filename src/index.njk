@@ -43,8 +43,9 @@ numberOfLatestPostsToShow: 3
     {%- for now in collections.now -%}
     <article>
       <p>{{ now.data.type | capitalize }}</p>
-      <img class="now-img" src="{{ now.data.image }}" alt="{{ now.data.alttext }}" height="150" width="150">
-      <a class="d-block" href="{{ now.data.link }}" target="_blank">{{ now.data.title }}</a>
+      <a class="d-block" href="{{ now.data.link }}" target="_blank">
+        <img class="now-img" src="{{ now.data.image }}" alt="{{ now.data.alttext }}" height="150" width="150"><br>
+        {{ now.data.title }}</a>
     </article>
     {% endfor %}
   </div>
